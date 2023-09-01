@@ -15,7 +15,7 @@ def main():
     st.write(pd.__version__)
     st.write(sns.__version__)
     st.write(matplotlib.__version__)
-    st.write(scikit-learn.__version__)
+    st.write(scikitlearn.__version__)
     st.write(plotly.__version__)
 
 if __name__=="__main__":
