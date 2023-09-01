@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib 
-import scikitlearn
+import sklearn
 import plotly
 
 def main():
@@ -15,7 +15,7 @@ def main():
     st.write(pd.__version__)
     st.write(sns.__version__)
     st.write(matplotlib.__version__)
-    st.write(scikitlearn.__version__)
+    st.write(sklearn.__version__)
     st.write(plotly.__version__)
 
 if __name__=="__main__":
