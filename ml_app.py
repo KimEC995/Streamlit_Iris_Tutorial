@@ -8,5 +8,5 @@ import seaborn as sns
 
 def run_ml_app():
     st.subheader("머신러닝 페이지")
-    st.markdown("![imge.jpg](data\BGI.jpg)")
+    st.markdown("![BGI.jpg](data\BGI.jpg)")
     st.subheader("잘 되는듯?")
