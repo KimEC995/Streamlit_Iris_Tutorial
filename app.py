@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib 
-import scikit-learn
+import scikitlearn
 import plotly
 
 def main():
