@@ -11,12 +11,12 @@ import plotly
 def main():
 
     st.markdown("# Hello World")
-    st.write(np.__version__)
-    st.write(pd.__version__)
-    st.write(sns.__version__)
-    st.write(matplotlib.__version__)
-    st.write(sklearn.__version__)
-    st.write(plotly.__version__)
+    st.write("Numpy:", np.__version__)
+    st.write("Pandas:", pd.__version__)
+    st.write("Seaborn:", sns.__version__)
+    st.write("Matplotlib:", matplotlib.__version__)
+    st.write("Sklearn:", sklearn.__version__)
+    st.write("Plotly:", plotly.__version__)
 
 if __name__=="__main__":
     main()
