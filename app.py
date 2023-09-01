@@ -1,22 +1,23 @@
 # -*- coding utf-8 -*-
 
 import streamlit as st
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib 
-import sklearn
-import plotly
+
 
 def main():
-
     st.markdown("# Hello World")
-    st.write("Numpy:", np.__version__)
-    st.write("Pandas:", pd.__version__)
-    st.write("Seaborn:", sns.__version__)
-    st.write("Matplotlib:", matplotlib.__version__)
-    st.write("Sklearn:", sklearn.__version__)
-    st.write("Plotly:", plotly.__version__)
+
+    menu=["Home", "탐색적 자료 분석", "머신러닝", "About"]
+    choice = st.sidebar.selesctbox("메뉴",menu)
+
+    if choice == "Home":
+        st.subheader("Home")
+    elif choice == "탐색적 자료 분석":
+        st.subheader("탐색적 자료 분석")
+    elif choice == "머신러닝":
+        st.subheader("머신러닝")
+    else:
+        pass
+    
 
 if __name__=="__main__":
     main()
